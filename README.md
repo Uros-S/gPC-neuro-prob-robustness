@@ -1,25 +1,21 @@
 # gPC_neuro_prob_robustness
 Code used to generate the figures in Main Text and Supplementary Material of the paper "gPC-based robustness analysis of neural systems through probabilistic recurrence metrics" by U. Sutulovic, D. Proverbio, R. Katz, and G. Giordano.  
 ArXiv version of the paper can be found at the link https://arxiv.org/abs/2601.02606 .
-Full publication soon available on "Chaos, Solitons & Fractals".
+Full publication soon available on "Chaos, Solitons & Fractals".  
 Supplementary material for the paper can be found at the Zenodo link https://zenodo.org/records/18172216 .
 
 Please cite the original reference if you reuse the code or its results.
 
-# License 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+# Usage
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+Below the steps to reproduce the figures of the above mentioned article. For other works you can refer to the settings below as blueprints.
 
-The full text of the GNU General Public License can be found in the file "LICENSE.txt".
-
-# Toolbox required
+## Toolbox required
 
 The results of this paper rely on the functions from the toolbox PoCET. Details on installation and usage can be found here:
 https://www.tu-chemnitz.de/etit/control/research/PoCET/index.php.en
 
-# Usage
-# b-I space HR model with LE approach (Fig. 6b1 in Main Text)
+## b-I space HR model with LE approach (Fig. 6b1 in Main Text)
 
 * Insert "model = 1;" and "modality = 3;"
 
@@ -63,7 +59,7 @@ x_end = 3.3;
 y_start = 2.2;  
 y_end = 4.4;
 
-# b-I space HR model with FG approach (Fig. 6c1 in Main Text)
+## b-I space HR model with FG approach (Fig. 6c1 in Main Text)
 
 * Insert "model = 1;" and "modality = 4;"
 
@@ -106,7 +102,7 @@ x_end = 3.3;
 y_start = 2.2;  
 y_end = 4.4;
 
-# r-I space HR model with LE approach (Fig. 6b2 in Main Text)
+## r-I space HR model with LE approach (Fig. 6b2 in Main Text)
 
 * Insert "model = 1;" and "modality = 3;"
 
@@ -149,7 +145,7 @@ x_end = 3.4;
 y_start = 0.005;  
 y_end = 0.03;  
 
-# r-I space HR model with FG approach (Fig. 6c2 in Main Text)
+## r-I space HR model with FG approach (Fig. 6c2 in Main Text)
 
 * Insert "model = 1;" and "modality = 4;"
 
@@ -192,7 +188,7 @@ x_end = 3.4;
 y_start = 0.005;  
 y_end = 0.03;  
 
-# A-B space JR model with FG (Fig. 7 in Main Text)
+## A-B space JR model with FG (Fig. 7 in Main Text)
 
 * Insert "model = 2;" and "modality = 4;"
 
@@ -214,3 +210,10 @@ x_start = 2;
 x_end = 12;  
 y_start = 15;  
 y_end = 31;
+
+# License 
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The full text of the GNU General Public License can be found in the file "LICENSE.txt".
