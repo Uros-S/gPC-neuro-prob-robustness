@@ -1,4 +1,5 @@
-% Uros Sutulovic, 12/2025
+% Code by Uros Sutulovic developed at University of Trento on 12/2025
+% Please refer to https://github.com/Uros-S/gPC-neuro-prob-robustness for credits and license.
 
 % Script initialisation
 clear; clc;  close all;
@@ -220,3 +221,4 @@ switch modality
         disp('Modality selected not available!');
         return;
 end
+
