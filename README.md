@@ -1,8 +1,6 @@
 # gPC_neuro_prob_robustness
 Code used to generate the figures in Main Text and Supplementary Material of the paper "gPC-based robustness analysis of neural systems through probabilistic recurrence metrics" by U. Sutulovic, D. Proverbio, R. Katz, and G. Giordano.  
-ArXiv version of the paper can be found at the link https://arxiv.org/abs/2601.02606 .
-Full publication soon available on "Chaos, Solitons & Fractals".  
-Supplementary material for the paper can be found at the Zenodo link https://zenodo.org/records/18172216 .
+The paper can be found at the link https://www.sciencedirect.com/science/article/pii/S0960077926000901 .
 
 Please cite the original reference if you reuse the code or its results.
 
